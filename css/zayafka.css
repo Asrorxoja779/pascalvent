@@ -1,0 +1,50 @@
+.zayafka-section {
+    background-image: url(/images/zayafka-section__images.svg) , url(/images/zayafka-section__images_frame.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right;
+    background-size: cover;
+    text-align: start;
+    margin: 100px 0;
+}
+
+.zayafka-section__title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px 70px;
+}
+
+.zayafka-section__title h1 {
+    color: rgba(73, 94, 76, 1);
+}
+
+.zayafka-section__items {
+    display: flex;
+    gap: 60px;
+}
+
+.zayafka__inputs {
+    display: flex;
+    gap: 30px;
+}
+
+.zayafka__inputs input {
+    outline: none;
+    padding: 20px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
+    width: 290px;
+    cursor: pointer;
+}
+
+.zayafka__button {
+    cursor: pointer;
+    background-color: rgba(31, 129, 29, 0.36);
+    border-radius: 17px;
+    padding: 19px 50px;
+    border: 11px solid rgb(161, 237, 171);
+    color: #ffffff;
+    font-size: 17px;
+}
+

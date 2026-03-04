@@ -1,0 +1,64 @@
+.diagram-vectors {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diagram-vectors img {
+}
+
+.diagram-section__texts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 80px 70px;
+}
+
+.vector_four {
+    right: 0;
+}
+
+.diagram-box__items {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: rgba(124, 163, 129, 1);
+}
+
+.diagram-box__items h3 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.diagram-montaj__icon {
+    width: 22px;
+}
+
+.diagram-box__item {
+    display: flex;
+    margin: 8px 0;
+    gap: 10px;
+}
+
+.diagram-text__images {
+    text-align: start;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.diagram-vectors__card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgba(217, 250, 221, 1);
+}
+
+.diagram-vectors__card img {
+}

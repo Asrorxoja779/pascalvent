@@ -1,0 +1,140 @@
+.location {
+    margin-top: 100px;
+}
+
+.location-green__text {
+    color: #78C081;
+    font-size: 35px;
+}
+
+.location-title {
+    color: #495E4C;
+    font-size: 45px;
+    text-align: start;
+    margin: 0 10px;
+}
+
+.location-section {
+    margin: 5px 10px 60px 10px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.location-box__left {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: space-between;
+
+}
+
+.location-box__left_zayafka {
+    background-image: url(/images/location-bg__zayafka.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 300px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #495E4C;
+}
+
+.location-box__left_zayafka {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-box__left_zayafka h2 {
+    color: #78C081;
+}
+
+.location-box__left_object {
+    background-image: url(/images/location-bg__object.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 254px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #495E4C;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+
+.location-box__left_dogovor {
+    background-image: url(/images/location-dogovor__images.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 303px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #495E4C;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-box__right {
+    margin-top: 146px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.location-box__right_konsultatsiya {
+    background-image: url(/images/location-bg__konsultatsiya.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 272px;
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    color: #495E4C;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-box__right_grafik {
+    background-image: url(/images/location-right__grafik.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 274px;
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    color: #495E4C;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.location-box__right_montaj {
+    background-image: url(/images/location-bg__montaj.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    height: 190px;
+    max-width: 540px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    color: #495E4C;
+    flex-direction: column;
+    gap: 15px;
+}

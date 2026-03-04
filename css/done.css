@@ -1,0 +1,86 @@
+.done {
+    margin-top: 100px;
+    background-image: url(/images/done-images__bg.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.done-title {
+    background-image: url(/images/done-title__bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    color: #78C081;
+    font-size: 45px;
+    text-align: center;
+    margin: 0px 100px;
+}
+
+.done-section {
+    margin: 40px 10px 60px 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.done-section__texts {
+    color: #495e4c;
+    font-size: 45px;
+}
+
+.done-text__paragraph {
+    color: #495e4c;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.done-images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.done-text__card {
+    text-align: start;
+    color: #d7c4c4;
+}
+
+.done-images__card {
+    position: relative;
+}
+
+.done-logo__card_img {
+    position: absolute;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 20px;
+    width: 164px;
+    height: 48px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #D9FADD;
+}
+
+.done-logo__card_text {
+    position: absolute;
+    top: 348px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 40px;
+}
+
+.done-logo__card h2 {
+    text-align: start;
+    color: #d7c4c4;
+}
+
+.done-logo__card p {
+    text-align: start;
+    color: #d7c4c4;
+    font-size: 14px;
+}

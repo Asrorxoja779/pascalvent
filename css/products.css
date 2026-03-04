@@ -1,0 +1,37 @@
+.products {
+    background-image: url(/images/product-bg__images.svg);
+    background-image: url(/images/product-bg__images_frame.svg);
+    background-image: url(/images/product-bg__images-Frame.svg);
+} 
+
+.products-section {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    text-align: start;
+    padding: 0px 60px;
+}    
+
+.products-section h1 {
+    color: rgba(73, 94, 76, 1);
+}
+
+.product-section__cards {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 2fr);
+}
+
+.product-section__card {
+    width:257px;
+    height: auto;
+    background-color: rgb(227, 236, 231);
+    border-top-left-radius: 25px;
+    border-radius: 25px;
+    display: grid;
+}
+
+.product-card__item {
+    color: rgba(120, 192, 129, 1);
+    padding: 15px;
+}

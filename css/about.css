@@ -1,0 +1,110 @@
+.about-section {
+}
+
+.about-items {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 168px 0px 130px 480px;
+}
+
+.about-section__title {
+
+}
+
+.about-item__name p {
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(132, 132, 132, 1);
+}
+
+.about-item__name {
+    color: rgba(73, 94, 76, 1);
+    font-size: 45px;
+}
+
+.about-section__title {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-item__left {
+    width: 75px;
+    height: 524px;
+    border: 10px solid rgb(181, 234, 182);
+    border-top-left-radius: 48px;
+    border-bottom-left-radius: 50px;
+}
+
+.about-left__cart-green {
+    background-color: rgba(92, 205, 106, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 15px;
+    gap: 15px;
+    border-top-left-radius: 40px;
+}
+
+.about-left__cart-green p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    align-items: center ;
+}
+
+.about-left__cart-white {
+    border-bottom-left-radius: 46px;
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about-left__cart-white p {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    color: white;
+    align-items: center ;
+    color: rgba(124, 162, 129, 1);
+}
+
+.about-big__card {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.about-card {
+    position: relative;
+    width: 676px;
+    height: 655px;
+    padding: 110px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 65px;
+    border-bottom-left-radius: 65px;
+    background-color: rgba(217, 250, 221, 1);
+}
+
+.about-card__items {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgba(73, 93, 76, 1);
+}
+
+.about-card__img {
+    position: absolute;
+    display: flex;
+    justify-items: left;
+    
+}
+
+.about-card__img img {
+    margin-left: 496px;
+}
