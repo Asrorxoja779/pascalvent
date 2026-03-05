@@ -1,13 +1,12 @@
 .home-section {
-    background: url(/images/home_bg__img.svg), url(/icons/home-bg__fon.svg);
-    background-repeat: no-repeat, no-repeat ;
-    background-position: right, left;
-    background-size: auto 100%, 100% auto;
-    background-size: contain, cover;
-    width: 100%;
-    height: 100vh;
-}
+    background-image:
+        url("/images/home_bg__img.svg"),
+        linear-gradient(180deg, #F1F1F1 0%, #DEE2E1 100%);
 
+        background-repeat: no-repeat;
+        background-position: right center, center;
+        background-size: 1108px, 100% 100%;
+}
 
 
 .home-section__box {
@@ -22,7 +21,7 @@
     font-size: 64px;
 }
 
-.green_bold  {
+.green_bold {
     color: #78C081;
     font-family: sans-serif;
 }
@@ -44,28 +43,41 @@
     margin-top: 50px;
 }
 
+
 .content-items__icons {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .content-items__icon {
     display: flex;
-    gap: 20px;
+    gap: 14px;
 }
 
-.content-section__button button {
-    cursor: pointer;
-    width: 477px;
-    height: 115px;
-    background-color: #78C081;
+.content-items__icon img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.buyurtma-btn {
+    max-width: 480px;
+    width: 100%;
+    padding: 32px 126px;
     border-radius: 40px;
-    opacity: 100;
-    color: #ffffff;
-    border: none;
+    background-color: #5CCD6A;
+    font-family: Ruberoid;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    cursor: pointer;
     font-size: 20px;
-    padding: 10px;
+    color: #fff;
     border: 15px solid #ceebd2;
+    white-space: nowrap;
+
 }
 
 .about_card {
@@ -73,4 +85,3 @@
     width: 676px;
     height: 655px;
 }
-
