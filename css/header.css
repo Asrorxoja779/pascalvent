@@ -58,14 +58,18 @@ header {
     cursor: pointer;
     width: 210px;
     height: 75px;
-    background-color: #5CCD6A;
+    background-color: #9CD3A3;
     border: none;
     color: #ffffff;
     text-align: center;
     border-radius: 20px;
     border: 10px solid   #ceebd2;
     font-size: 18px;
-    
+    font-family: Ruberoid;
+}
+
+.header-title__button button:hover {
+    background-color: #54E165;
 }
 
 .header-title__button {
