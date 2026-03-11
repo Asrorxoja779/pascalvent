@@ -2,6 +2,7 @@
     background-image: url(/images/cleaner-bg__images.svg);
     background-position: right;
     background-repeat: no-repeat;
+    font-family: Ruberoid;
 }
 
 .cleaner-section {
@@ -72,8 +73,13 @@
     width: 447px;
     height: 85px;
     border-radius: 30px;
-    background-color: #5CCD6A;
+    background-color: #9CD3A3;
     border: 10px solid #c4f3cb;
+}
+
+.cleaner-text__button button:hover {
+    background-color: #54E165;
+    transition: 0.4s;
 }
 
 .cleaner-images  {

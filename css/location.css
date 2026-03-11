@@ -1,5 +1,6 @@
 .location {
     margin-top: 100px;
+    font-family: Ruberoid;
 }
 
 .location-green__text {
@@ -31,7 +32,7 @@
 }
 
 .location-box__left_zayafka {
-    background-image: url(/images/location-bg__zayafka.svg);
+    background-image: url(/images/location-bg__zayafkaa.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -54,7 +55,7 @@
 }
 
 .location-box__left_object {
-    background-image: url(/images/location-bg__object.svg);
+    background-image: url(/images/location-bg__objectt.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -70,7 +71,7 @@
 
 
 .location-box__left_dogovor {
-    background-image: url(/images/location-dogovor__images.svg);
+    background-image: url(/images/location-dogovorr__images.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -92,7 +93,7 @@
 }
 
 .location-box__right_konsultatsiya {
-    background-image: url(/images/location-bg__konsultatsiya.svg);
+    background-image: url(/images/location-bg__konsultatsiyaa.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -108,7 +109,7 @@
 }
 
 .location-box__right_grafik {
-    background-image: url(/images/location-right__grafik.svg);
+    background-image: url(/images/location-right__grafikk.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -124,7 +125,7 @@
 }
 
 .location-box__right_montaj {
-    background-image: url(/images/location-bg__montaj.svg);
+    background-image: url(/images/location-bg__montajj.webp);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;

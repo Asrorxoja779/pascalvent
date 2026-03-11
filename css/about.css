@@ -1,4 +1,5 @@
 .about-section {
+    font-family: Ruberoid;
 }
 
 .about-items {
@@ -11,6 +12,10 @@
 
 .about-section__title {
 
+}
+
+.about-card__img {
+ 
 }
 
 .about-item__name p {
@@ -36,6 +41,7 @@
     border: 10px solid rgb(181, 234, 182);
     border-top-left-radius: 48px;
     border-bottom-left-radius: 50px;
+    font-size: 14px;
 }
 
 .about-left__cart-green {

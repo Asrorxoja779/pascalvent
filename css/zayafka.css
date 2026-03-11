@@ -5,6 +5,7 @@
     background-size: cover;
     text-align: start;
     margin: 100px 0;
+    font-family: Ruberoid;
 }
 
 .zayafka-section__title {
@@ -29,6 +30,7 @@
 }
 
 .zayafka__inputs input {
+    font-family: Ruberoid;
     outline: none;
     padding: 20px;
     border-radius: 14px;
@@ -39,6 +41,7 @@
 }
 
 .zayafka__button {
+    font-family: Ruberoid;
     cursor: pointer;
     background-color: rgba(31, 129, 29, 0.36);
     border-radius: 17px;

@@ -5,11 +5,12 @@
 } 
 
 .products-section {
+    font-family: Ruberoid;
     display: flex;
     flex-direction: column;
     gap: 85px;
     text-align: start;
-    padding: 0px 60px;
+    padding: 40px 60px;
 }    
 
 .products-section h1 {
@@ -20,6 +21,11 @@
     display: grid;
     gap: 40px;
     grid-template-columns: repeat(4, 2fr);
+}
+
+.product-section__card img {
+    width: 257px;
+    height: 92px;
 }
 
 .product-section__card {
@@ -33,5 +39,5 @@
 
 .product-card__item {
     color: rgba(120, 192, 129, 1);
-    padding: 15px;
+    padding: 12px;
 }

@@ -1,6 +1,7 @@
 .done {
+    font-family: Ruberoid;
     margin-top: 100px;
-    background-image: url(/images/done-images__bg.svg);
+    background-image: url(/images/done);
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -44,7 +45,7 @@
 
 .done-text__card {
     text-align: start;
-    color: #d7c4c4;
+    color: #FFFFFF;
 }
 
 .done-images__card {
@@ -76,11 +77,11 @@
 
 .done-logo__card h2 {
     text-align: start;
-    color: #d7c4c4;
+    color: #FFFFFF;
 }
 
 .done-logo__card p {
     text-align: start;
-    color: #d7c4c4;
+    color: #FFFFFF;
     font-size: 14px;
 }
