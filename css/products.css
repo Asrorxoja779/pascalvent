@@ -1,8 +1,7 @@
 .products {
-    background-image: url(/images/product-bg__images.svg);
-    background-image: url(/images/product-bg__images_frame.svg);
-    background-image: url(/images/product-bg__images-Frame.svg);
-} 
+    background-image: url(/images/products-bgg__images.webp);
+    background-repeat: no-repeat;
+}    
 
 .products-section {
     font-family: Ruberoid;
@@ -25,13 +24,14 @@
 
 .product-section__card img {
     width: 257px;
-    height: 92px;
+    height: 85px;
+    object-fit: cover;
 }
 
 .product-section__card {
     width:257px;
-    height: auto;
-    background-color: rgb(227, 236, 231);
+    height: 142px;
+    background-color: rgb(227, 230, 229);
     border-top-left-radius: 25px;
     border-radius: 25px;
     display: grid;
@@ -39,5 +39,5 @@
 
 .product-card__item {
     color: rgba(120, 192, 129, 1);
-    padding: 12px;
+    padding: 8px 18px;
 }

@@ -15,7 +15,8 @@ body {
 }
 
 button {
-    background-color: #9CD3A3;
+    background-color: #5CCD6A;
+    text-transform: uppercase;
 }
 
 button:hover {
@@ -45,9 +46,16 @@ header {
 .header-title__links a{ 
     text-decoration: none;
     color: #495E4C;
+    transition: all .3s  ease;
+}
+
+.header-title__links a:hover {
+    color: #69a46e;
 }
 
 .header-title__links  {
+    font-family: sans-serif;
+    font-weight;
     display: flex;
     gap: 40px;
     list-style: none;
@@ -58,7 +66,7 @@ header {
     cursor: pointer;
     width: 210px;
     height: 75px;
-    background-color: #9CD3A3;
+    background-color: #5CCD6A;
     border: none;
     color: #ffffff;
     text-align: center;

@@ -36,13 +36,23 @@
     gap: 8px;
 }
 
+.about-items p {
+    line-height: 26px;
+    color: #848484;
+}
+
 .about-item__left {
     width: 75px;
     height: 524px;
-    border: 10px solid rgb(181, 234, 182);
+    border: 10px solid  rgba(217, 250, 221, 1);
     border-top-left-radius: 48px;
     border-bottom-left-radius: 50px;
     font-size: 14px;
+}
+
+.about-card__items {
+    text-align: start;
+    color: #495D4C;
 }
 
 .about-left__cart-green {

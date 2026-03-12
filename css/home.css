@@ -1,13 +1,14 @@
 .home-section {
+    font-family: Ruberoid;
     background-image:
-        url("/images/home_bg__img.webp"),
+        url("/images/home_bgg__img.webp"),
         linear-gradient(180deg, #F1F1F1 0%, #DEE2E1 100%);
-
         background-repeat: no-repeat;
         background-position: right center, center;
         background-size: 1108px, 100% 100%;
         font-family: Ruberoid;
         font-weight: 500;
+        min-height: 1000px;
 }
 
 
@@ -20,12 +21,57 @@
 }
 
 .content-section__items h1 {
+    font-family: Ruberoid;
     font-size: 64px;
 }
 
 .green_bold {
     color: #78C081;
     font-family: sans-serif;
+}
+
+.content-items__column {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.content-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: Ruberoid;
+}
+
+.content-item h1 {
+    color: #495E4C;
+}
+
+.content-item hr {
+    width: 148px;
+    height: 5px;
+    border: none;
+    background-color: #78C081;
+}
+
+.home-green__hr {
+    width: 148px;
+    height: 3px;
+}
+
+.content-items__ellips {
+    font-family: Ruberoid;
+    display: flex;
+    gap: 8px;
+}
+
+.content-ellips__paragrph {
+    margin-top: 20px;
+}
+
+.content-section__items {
+    display: flex;
+    align-items: ;
 }
 
 .heading-one__green {
@@ -41,8 +87,8 @@
 .content-section__items {
     display: flex;
     flex-direction: column;
-    gap: 60px;
-    margin-top: 50px;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 
@@ -53,12 +99,12 @@
 
 .content-items__icon {
     display: flex;
-    gap: 14px;
+    gap: 12px;
 }
 
 .content-items__icon img {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -67,7 +113,7 @@
     width: 100%;
     padding: 32px 126px;
     border-radius: 40px;
-    background-color: #9CD3A3;
+    background-color: #5CCD6A;
     font-family: Ruberoid;
     font-weight: 400;
     font-size: 17px;
@@ -79,6 +125,12 @@
     color: #fff;
     border: 15px solid #ceebd2;
     white-space: nowrap;
+}
+
+.paragraph-content__nomber {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
 }
 
 .about_card {

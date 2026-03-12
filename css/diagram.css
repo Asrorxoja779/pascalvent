@@ -12,6 +12,7 @@
 }
 
 .diagram-section__texts {
+    color: #495E4C;
     display: flex;
     justify-content: space-between;
     gap: 20px;

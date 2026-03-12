@@ -1,8 +1,8 @@
 .zayafka-section {
-    background-image: url(/images/zayafka-section__images.svg) , url(/images/zayafka-section__images_frame.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: right;
-    background-size: cover;
+    background-image:url(/images/zayafka-bigg__images.webp),  url(/images/zayafka-section__bg.svg);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-color: #D9FADD;
     text-align: start;
     margin: 100px 0;
     font-family: Ruberoid;
@@ -32,11 +32,12 @@
 .zayafka__inputs input {
     font-family: Ruberoid;
     outline: none;
-    padding: 20px;
+    padding: 0px 20px;
     border-radius: 14px;
     border: none;
     box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
     width: 290px;
+    height: 57px;
     cursor: pointer;
 }
 
@@ -49,5 +50,10 @@
     border: 11px solid rgb(161, 237, 171);
     color: #ffffff;
     font-size: 17px;
+    background-color: #5ccd6a
+}
+
+.zayafka__button :hover {
+    background-color:#54E165;
 }
 
