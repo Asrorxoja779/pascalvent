@@ -44,6 +44,26 @@
     justify-content: center;
 }
 
+.client-section__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.client-title__box {
+    display: flex;
+    gap: 30px;
+}
+
+.client-title__hr {
+    width: 105px;
+    height: 3px;
+    margin-top: 30px;
+    background-color: #78C081;
+    border: none;
+    border-radius: 6px;
+}
+
 .client-box__left-right {
     display: flex;
     gap: 20px;

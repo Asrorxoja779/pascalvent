@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 168px 0px 130px 480px;
+    padding: 168px 0px 130px 420px;
 }
 
 .about-section__title {
@@ -17,6 +17,33 @@
 .about-card__img {
  
 }
+
+.about-item__title {
+    font-family: Ruberoid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-hr__box {
+    display: flex;
+    gap: 20px;
+}
+
+.about-item__hr {
+    width: 230px;
+    height: 3px;
+    border: none;
+    background-color:#78C081;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about-item__hr hr {
+    background-color: #78C081;
+}
+
+
 
 .about-item__name p {
     line-height: 30px;

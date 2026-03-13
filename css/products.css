@@ -41,3 +41,25 @@
     color: rgba(120, 192, 129, 1);
     padding: 8px 18px;
 }
+
+.product-title__column {
+    display: flex;
+    gap: 5px;
+}
+
+.product-title__hr {
+    width: 200px;
+    height: 3px;
+    color: #78C081;
+    margin-top: 20px;
+    background-color: #78C081;
+    border: none;
+    border-radius: 5px;
+}
+
+.product-section__title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    line-height: 40px;
+}

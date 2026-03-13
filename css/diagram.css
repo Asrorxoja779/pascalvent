@@ -67,3 +67,27 @@
 
 .diagram-vectors__card img {
 }
+
+.diagram-mini__hr {
+    width: 100px;
+    height: 2px;
+}
+
+.diagram-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: start;
+}
+
+.diagram-hr__box {
+    display: flex;
+}
+
+.diagram-hr__box hr {
+    margin-top: 24px;
+    margin-left: 3px;
+    border: 2px solid #78C081;
+    border-radius: 2px;
+
+}
