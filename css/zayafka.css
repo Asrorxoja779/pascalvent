@@ -22,6 +22,8 @@
 .zayafka-section__items {
     display: flex;
     gap: 60px;
+    justify-content: center;
+    align-items:center;
 }
 
 .zayafka__inputs {
@@ -36,9 +38,16 @@
     border-radius: 14px;
     border: none;
     box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
-    width: 290px;
-    height: 57px;
+    padding: 20px;
+    width: 100%;
+    min-width: 290px;
+    color: #777;
 }
+
+.zayafka__inputs input::placeholder {
+    color: #7CA381B2;
+}
+
 
 .zayafka__button {
     font-family: Ruberoid;
