@@ -20,6 +20,7 @@ button {
     text-transform: uppercase;
 }
 
+
 button:hover {
     background-color: #54E165;
 }
@@ -85,6 +86,10 @@ header {
 
 }
 
+.header-title__icon {
+    display: none;
+}
+
 .content-section {
     padding: 80px 90px;
     display: flex;
@@ -143,4 +148,36 @@ header {
     font-size: 20px;
     padding: 10px;
     border: 15px solid #ceebd2;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 90%;
+    }
+
+    .header-title__logo img {
+        width: 168px;
+        height: 53px;
+    }
+
+    .header-title__links {
+        display: none;
+    }
+
+    .header-title__button {
+        display: none;
+    }
+
+    .header-title__icon {
+        display: block;
+    }
+
+    .header-title__icon img {
+        padding: 17px 12px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        box-shadow: 2px 2px 2px 2px #d0cece;
+    }
+
 }
