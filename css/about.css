@@ -1,5 +1,12 @@
 .about-section {
     font-family: Ruberoid;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    position: relative;
+}
+
+.about-mini__card {
+    /* display: none; */
 }
 
 .about-items {
@@ -7,15 +14,13 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 168px 0px 130px 420px;
 }
 
 .about-section__title {
-
-}
-
-.about-card__img {
- 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 110px;
 }
 
 .about-item__title {
@@ -69,8 +74,6 @@
 }
 
 .about-item__left {
-    width: 75px;
-    height: 524px;
     border: 10px solid  rgba(217, 250, 221, 1);
     border-top-left-radius: 48px;
     border-bottom-left-radius: 50px;
@@ -117,9 +120,10 @@
 }
 
 .about-big__card {
+    position: absolute;
+    right: 0;
     display: flex;
     align-items: center;
-    padding: 100px 0px;
 }
 
 .about-card {
@@ -150,5 +154,107 @@
 }
 
 .about-card__img img {
-    margin-left: 496px;
+    margin-left: 510px;
 }
+
+.about-mini__card {
+    display: none;
+}
+
+.about-mini__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 22px;
+    
+}
+
+.about-mini__card { 
+    font-family: Ruberoid;
+    width: auto;
+    height: 659px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #D9FADD;
+}
+
+.about-card__box {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-card__title {
+    display: flex;
+    font-size: 14px;
+}
+
+.about-title__one {
+    padding: 24px 20px;
+    background-color:#ffffff;
+    color:#7CA281;
+    border-top-left-radius: 40px;
+    width: 173px;
+    height: 65px;
+    font-size: 12px;
+}
+
+.about-title__two {
+    padding: 24px 17px;
+    background-color: #5CCD6A;
+    color: #ffffff;
+    font-size: 12px;
+    border-top-right-radius: 40px;
+    white-space: nowrap;
+    width: 172px;
+    height: 65px;
+
+}
+
+.about-mini__card {
+    display: none;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 95%;
+    }
+
+    .about-big__card {
+        display: none;
+    }
+
+    .about-section__title {
+        padding: 0px 8px;
+    }
+
+    .about-item__title p {
+        font-size: 14px;
+    }
+
+    .about-mini__card {
+        display: block;
+        display: flex;
+        gap: 16px;
+        margin: 30px 0px;
+    }
+
+    .about-item__hr {
+        width: 160px;
+    }
+
+    .about-card__title {
+        height: ;
+    }
+
+    .about-card__box {
+        padding: 0px 15px;
+        gap: 12px;
+    }
+
+}
+
+
+

@@ -177,6 +177,7 @@
 
     .content-items__icons {
         flex-direction: column;
+        align-items: start;
     }
 
     .content-items__icon {
@@ -190,11 +191,20 @@
     .content-items__icon {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .paragraph-content__nomber {
-        flex-direction: row;
         font-size: 14px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 14px;
+    }
+
+    .paragraph-content__green {
+        
     }
 
     .buyurtma-btn {
@@ -202,16 +212,7 @@
         font-size: 16px;
     }
 
-    ..home-section {
-    font-family: Ruberoid;
-    background-image:
-        url("/images/home_bgg__img.webp"),
-        linear-gradient(180deg, #F1F1F1 0%, #DEE2E1 100%);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 10108px, 100% 100%;
-        font-family: Ruberoid;
-        font-weight: 500;
-        min-height: 1000px;
+    .home-section {
+        background-image: none;
     }
 }    

@@ -73,6 +73,16 @@
     height: 2px;
 }
 
+.diagram-title__hr {
+    width: 60px;
+    height: 3px;
+    border: none;
+    background-color:#78C081;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 12px;
+} 
+
 .diagram-text {
     display: flex;
     flex-direction: column;
@@ -89,5 +99,46 @@
     margin-left: 3px;
     border: 2px solid #78C081;
     border-radius: 2px;
-
 }
+
+@media only screen and (max-width: 375px) {
+    .container {
+    }
+
+    .diagram-text {
+        display: none;
+    }
+
+    .diagram-section__texts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diagram-title__items {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .diagram-title__item {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .diagram-title__hr  {
+       
+    }
+    
+    .diagram-section__texts {
+        padding: 18px;
+    }
+
+    .diagram-hr__box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .diagram-vectors {
+        display: none;
+    }
+}    
