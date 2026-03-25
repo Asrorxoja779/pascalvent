@@ -87,3 +87,28 @@
     grid-template-columns: repeat(2, 2fr);
     gap: 15px;
 }
+
+@media only screen and (max-width: 375px) {
+    .container {
+    }
+
+    .cleaner {
+        background-image: none;
+    }
+
+    .cleaner-items h1 {
+        color: #495E4C;
+        font-size: 28px;
+    }  
+
+    .cleaner-item_boxs {
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+
+    .cleaner-item_box  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}    

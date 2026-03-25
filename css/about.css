@@ -146,6 +146,11 @@
     color: rgba(73, 93, 76, 1);
 }
 
+.about-item__paragraph {
+    width: 600px;
+    height: 400px;
+}
+
 .about-card__img {
     position: absolute;
     display: flex;
@@ -222,6 +227,11 @@
         width: 95%;
     }
 
+    
+    .about-item__paragraph {
+        width: 350px;
+        height: 600px;
+    }
     .about-big__card {
         display: none;
     }
@@ -253,7 +263,6 @@
         padding: 0px 15px;
         gap: 12px;
     }
-
 }
 
 

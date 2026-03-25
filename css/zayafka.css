@@ -54,7 +54,7 @@
     cursor: pointer;
     background-color: rgba(31, 129, 29, 0.36);
     border-radius: 17px;
-    padding: 19px 50px;
+    padding: 16px 50px;
     border: 11px solid rgb(161, 237, 171);
     color: #ffffff;
     font-size: 17px;
@@ -65,3 +65,49 @@
     background-color:#54E165;
 }
 
+@media only screen and (max-width: 375px) {
+    .container {
+    }
+
+    .zayafka-section {
+        background-image: none;
+    }
+
+    .zayafka-section__title {
+        padding: 25px;
+    }
+    
+    .zayafka-section__title h1 {
+        font-size: 24px;
+    }
+
+    .zayafka-section__items {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .zayafka__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .zayafka__button {
+        width: 319px;
+        height: 75px;
+        padding: 16px 8px;
+    }
+
+    .zayafka__inputs input {
+    font-family: Ruberoid;
+    outline: none;
+    padding: 0px 20px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
+    padding: 20px;
+    width: 100%;
+    min-width: 319px;
+    color: #777;
+}
+}
