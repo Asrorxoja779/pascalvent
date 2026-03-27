@@ -23,6 +23,12 @@
     text-align: start;
 }
 
+.location-box__items {
+    display: none;
+}
+
+}
+
 .location-box__left {
     display: flex;
     flex-direction: column;
@@ -139,3 +145,66 @@
     flex-direction: column;
     gap: 15px;
 }
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+    }
+
+    .location-box__items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .location-title {
+        font-size: 28px;
+    }
+
+    .location-box__left {
+        display: none;
+    }
+
+    .location-box__right {
+        display: none;
+    }
+
+    .location-green__text {
+        font-size: 24px;
+    }
+
+    .location-green__paragraph {
+        font-size: 14px;
+    }
+
+    .location-box__left_zayafka {
+        width: 350px;
+        height: 150px;
+    }
+
+    .location-box__right_konsultatsiya {
+        width: 350px;
+        height: 150px;
+    }
+
+    .location-box__left_dogovor {
+        width: 350px;
+        height: 150px;
+    }
+
+    .location-box__left_object {
+        width: 350px;
+        height: 150px;
+    }
+
+    .location-box__right_grafik {
+        width: 350px;
+        height: 150px;
+    }
+
+    .location-box__right_montaj {
+        width: 350px;
+        height: 150px;
+    }
+
+}    

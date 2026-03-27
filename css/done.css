@@ -1,10 +1,12 @@
 .done {
     font-family: Ruberoid;
     margin-top: 100px;
-    background-image: url(/images/done);
+    background-image: url(/images/done-images__bg2.svg);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: top left;
 }
+
+
 
 .done-title {
     background-image: url(/images/done-title__bgg.webp);
@@ -15,7 +17,7 @@
     color: #78C081;
     font-size: 45px;
     text-align: center;
-    margin: 0px 100px;
+    margin: 40px 0px;
 }
 
 .done-section {
@@ -52,6 +54,11 @@
     position: relative;
 }
 
+.done-images__card2 {
+    position: relative;
+    display: none;
+}
+
 .done-logo__card_img {
     position: absolute;
     top: 35px;
@@ -84,4 +91,72 @@
     text-align: start;
     color: #FFFFFF;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+    }
+
+    .done {
+        background-image: url(/images/done-images__bg2.svg);
+
+    }
+
+    
+    .done-header h1 {
+        font-size: 24px;
+    }
+
+    .done-section {
+        flex-direction: column;
+    }
+
+
+    .done-title {
+        font-size: 20px;
+    }
+
+    .done-section {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 70px;
+    }
+
+    .done-section__texts {
+        font-size: 24px;
+    }
+
+    .done-images__card {
+        display: none;
+    }
+
+    .done-images__card2 {
+        display: block;
+    }
+
+    .done-images__card2 img {
+        width: 350px;
+        height: ;
+        background-image: url(/images/done-images__bg2.svg);
+    }
+
+    .done-logo__card2_img img {
+        position: absolute;
+        top: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 8px 12px;
+        width: 164px;
+        height: 49px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        background-color: #D9FADD;
+    }
+
+    .done-logo__card_text {
+        top: 310px;
+    }
+
 }

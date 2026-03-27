@@ -17,6 +17,13 @@
     align-items: center;
 }
 
+.diagram-wrapper {
+    display: none;
+}
+.diagram-box__items2 {
+    display: none;
+}
+
 .diagram-vectors2 {
     display: none;
 }
@@ -61,6 +68,12 @@
     display: flex;
     margin: 8px 0;
     gap: 10px;
+}
+
+.diagram-box__item img {
+    width: 24px;
+    height: 18px;
+    margin-top: 6px;
 }
 
 .diagram-box__items2 {
@@ -128,7 +141,7 @@
 }
 
 .diagram-title__items {
-    display: none;
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -181,6 +194,7 @@
     }
 
     .diagram-wrapper {
+        display: block;
         position: relative;
         width: 350px;
         height: 700px;
