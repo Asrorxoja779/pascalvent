@@ -9,7 +9,7 @@
         font-family: Ruberoid;
         font-weight: 500;
         min-height: 1000px;
-}
+    }
 
 
 .home-section__box {
@@ -140,9 +140,22 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .container {
+    /* .container {
         width: 95%;
+    } */
+
+    .home-section {
+        background-image: url("/images/home_bgg__img.webp"), linear-gradient(180deg, #F1F1F1 0%, #DEE2E1 100%);
+        /* linear-gradient(180deg, #F1F1F1 0%, #DEE2E1 100%); */
+        background-repeat: no-repeat;
+        background-position: right center, end;
+        background-size: 100% 100%, 100% 100%;
+        font-family: Ruberoid;
+        background-size: ;
+        font-weight: 500;
+        min-height: 450px;
     }
+
 
     .home-section__box {
         padding: 83px 28px 43px 28px;
@@ -212,7 +225,4 @@
         font-size: 16px;
     }
 
-    .home-section {
-        background-image: none;
-    }
 }    
