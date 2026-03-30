@@ -16,7 +16,7 @@
 }
 
 .location-section {
-    margin: 5px 10px 60px 10px;
+    margin: 20px;
     display: flex;
     gap: 60px;
     justify-content: space-between;
@@ -151,6 +151,9 @@
     .container {
     }
 
+    .location-section {
+    }
+
     .location-box__items {
         display: flex;
         flex-direction: column;
@@ -183,6 +186,11 @@
     }
 
     .location-box__right_konsultatsiya {
+        margin-left: 40px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end; */
         width: 350px;
         height: 150px;
     }
@@ -198,11 +206,13 @@
     }
 
     .location-box__right_grafik {
+        margin-left: 40px;
         width: 350px;
         height: 150px;
     }
 
     .location-box__right_montaj {
+        margin-left: 40px;
         width: 350px;
         height: 150px;
     }

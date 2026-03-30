@@ -95,9 +95,17 @@
 @media only screen and (max-width: 450px) {
     .products {
         background-image: none;
+        background-image: url(/images/pruduct-responsive__bg.svg);
+        background-repeat: no-repeat;
     }
 
     .products-section {
+    }
+
+    .products-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .product-section__title {
@@ -126,9 +134,6 @@
     }
     
     .product-section__cards {
-    background-image: url(/images/pruduct-responsive__bg.svg);
-    background-repeat: ;
-    background-size: contain;
     }
     
     .product-section__card {

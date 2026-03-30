@@ -95,11 +95,17 @@
 
 @media only screen and (max-width: 450px) {
     .container {
+    
     }
 
     .done {
         background-image: url(/images/done-images__bg2.svg);
 
+    }
+
+    .done-section  {
+        padding: 20px;
+        gap: 0px;
     }
 
     
@@ -136,7 +142,7 @@
     }
 
     .done-images__card2 img {
-        width: 350px;
+        width: 380px;
         height: ;
         background-image: url(/images/done-images__bg2.svg);
     }

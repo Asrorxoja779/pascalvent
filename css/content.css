@@ -98,8 +98,8 @@
        display: flex;
        flex-direction: column;
        gap: 20px;
-       width: 319px;
-       height: 622px;
+       width: 350px;
+       height: 600px;
        background-color: #ffffff;
        border-radius: 50px;
        color: #848484;
@@ -112,10 +112,10 @@
     }
 
     .content-info__box-2 {
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     .content-info__box-1 {
-        margin-right: 60px;
+        margin-right: 80px;
     }
 }        

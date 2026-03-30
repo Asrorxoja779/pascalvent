@@ -6,7 +6,7 @@
 }
 
 .cleaner-section {
-    margin: 50px 0px;
+    margin: 50px 20px;
     display: flex;
     grid-gap: 87px;
     align-items: center;
@@ -108,13 +108,16 @@
     }  
 
     .cleaner-item_boxs {
-        width: 350px;
         flex-wrap: wrap;
     }
 
     .cleaner-text__boxs {
-        width: 350px;
+        width: 400px;
         line-height: 24px;
+    }
+
+    .cleaner-item_boxs {
+        gap: 7px;
     }
 
     .cleaner-item_box  {
@@ -130,6 +133,17 @@
 
     .cleaner-text__button button {
         width: 319px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cleaner-text__button {
+        margin-left: 40px;
+        width: 319px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .cleaner-images {

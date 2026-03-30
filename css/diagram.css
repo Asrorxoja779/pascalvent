@@ -196,7 +196,7 @@
     .diagram-wrapper {
         display: block;
         position: relative;
-        width: 350px;
+        width: 450px;
         height: 700px;
     }  
     
@@ -208,8 +208,8 @@
 
     .vector__2 {
         position: absolute;
-        top: 120px;
-        left: 220px;
+        top: 130px;
+        left: 290px;
     }
 
     .vector__3 {
@@ -220,7 +220,7 @@
 
     .vector__4 {
         position: absolute;
-        bottom: 100px;
+        bottom: 80px;
         right: -1;
     }
 
@@ -228,13 +228,12 @@
         position: absolute;
         text-align: center;
         top: 80px;
-        left: 100px;
+        left: 130px;
         display: flex;
         flex-direction: column;
         gap: 20px;
         justify-content: center;
         align-items: center;
-        
     }
 
     .vector-img__1 {
@@ -270,7 +269,7 @@
         position: absolute;
         text-align: center;
         top: 510px;
-        left: 60px;
+        left: 80px;
         display: flex;
         flex-direction: column;
         gap: 20px;

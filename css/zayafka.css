@@ -93,21 +93,21 @@
     }
 
     .zayafka__button {
-        width: 319px;
+        width: 350px;
         height: 75px;
         padding: 16px 8px;
     }
 
     .zayafka__inputs input {
-    font-family: Ruberoid;
-    outline: none;
-    padding: 0px 20px;
-    border-radius: 14px;
-    border: none;
-    box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
-    padding: 20px;
-    width: 100%;
-    min-width: 319px;
-    color: #777;
-}
+        font-family: Ruberoid;
+        outline: none;
+        padding: 0px 20px;
+        border-radius: 14px;
+        border: none;
+        box-shadow: 10px 10px 10px rgba(168, 232, 183, 0.5);
+        padding: 20px;
+        width: 100%;
+        min-width: 350px;
+        color: #777;
+    }
 }

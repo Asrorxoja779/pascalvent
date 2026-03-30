@@ -166,6 +166,7 @@
 
     .footer-inputs {
         order: 2;
+        text-align: center;
     }
 
     .title-box__numbers {
@@ -199,6 +200,11 @@
         height: 65px;
     }
 
+    .footer-inputs__items input {
+        width: 350px;
+
+    }
+
     .footer-section__logo img {
         display: none;
     }
@@ -208,9 +214,13 @@
         height: 65px;
     } 
 
+
     
     .footer-inputs button {
+        display: flex;
+        justify-content: center;
         align-items: center;
+        margin-left: 35px;
         width: 300px;
         height: 75px;
         background-color: #5CCD6A;
@@ -222,6 +232,10 @@
 
     .footer-section__logo {
         gap: 10px;
+    }
+
+    .footer-hr__logo {
+        width: 100%;
     }
 
 }
