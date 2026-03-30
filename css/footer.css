@@ -125,6 +125,7 @@
     border-radius: 17px;
     color:#FFFFFF ;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .footer-inputs button:hover {
@@ -228,6 +229,7 @@
         border-radius: 17px;
         color:#FFFFFF ;
         font-size: 18px;
+        cursor: pointer;
     }
 
     .footer-section__logo {
