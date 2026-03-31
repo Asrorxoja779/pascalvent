@@ -224,7 +224,7 @@
         right: -1;
     }
 
-    .vector-item__1 {
+    .vector-item__boxs {
         position: absolute;
         text-align: center;
         top: 80px;
@@ -236,15 +236,18 @@
         align-items: center;
     }
 
-    .vector-img__1 {
+    .vector-img__box {
         background-color: #D9FADD;
         width: 100px;
         height: 100px;
         border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
-    .vector-item__1 img {
+    .vector-item__box img {
         width: 50px;
     }
 
